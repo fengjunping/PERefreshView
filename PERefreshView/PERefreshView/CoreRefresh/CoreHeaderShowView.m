@@ -142,7 +142,7 @@
     
     progress = MIN(1.0, progress);
     _progress=progress;
-
+    NSLog(@"ff %f",_progress);
     [self setNeedsDisplay];
 }
 
