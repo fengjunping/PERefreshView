@@ -94,6 +94,7 @@ CGFloat const deltaValue=0.0f;
         if(w<=0) w=self.scrollView.bounds.size.width;
         CGRect frame=CGRectMake(0,y,w,h);
         self.frame=frame;
+        
     }
 }
 
